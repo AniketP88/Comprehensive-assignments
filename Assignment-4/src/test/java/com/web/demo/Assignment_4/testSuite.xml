@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MakeMyTrip Test Suite">
+<test name="Logo Checking">
+<classes>
+<class name = "com.web.demo.Assignment_4.Assignment5A" />
+</classes>
+</test>
+<test name="Searching One Way Flights">
+<classes>
+<class name = "com.web.demo.Assignment_4.Assignment5B" />
+</classes>
+</test>
+</suite>

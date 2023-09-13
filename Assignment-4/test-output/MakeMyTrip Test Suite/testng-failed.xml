@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MakeMyTrip Test Suite]">
+  <test name="Logo Checking">
+    <classes>
+      <class name="com.web.demo.Assignment_4.Assignment5A"/>
+    </classes>
+  </test> <!-- Logo Checking -->
+  <test name="Searching One Way Flights">
+    <classes>
+      <class name="com.web.demo.Assignment_4.Assignment5B"/>
+    </classes>
+  </test> <!-- Searching One Way Flights -->
+  <test name="Searching One Way Flights(failed)">
+    <classes>
+      <class name="com.web.demo.Assignment_4.Assignment5A">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.web.demo.Assignment_4.Assignment5A -->
+      <class name="com.web.demo.Assignment_4.Assignment5B">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- com.web.demo.Assignment_4.Assignment5B -->
+    </classes>
+  </test> <!-- Searching One Way Flights(failed) -->
+</suite> <!-- Failed suite [MakeMyTrip Test Suite] -->
